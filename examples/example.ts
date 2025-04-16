@@ -3,4 +3,4 @@ import fs from "fs";
 
 const buffer = await generateAvatar("asdasdasdasdasd", 400, 400);
 
-fs.writeFileSync("avatar.png", buffer);
+fs.writeFileSync("./assets/avatar.png", buffer);

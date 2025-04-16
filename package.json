@@ -1,11 +1,15 @@
 {
   "name": "@jonkasusaki/avatar-generator",
+  "author": "Jonka Susaki",
   "description": "Avatar Generator",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
     "pureimage": "^0.4.18"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "type": "module",
   "devDependencies": {
@@ -14,6 +18,16 @@
     "typescript": "^5.8.3"
   },
   "scripts": {
-    "build": "tsc"
-  }
+    "build": "tsc",
+    "example": "tsx examples/example.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonkasusaki/avatar-generator.git"
+  },
+  "keywords": [
+    "avatar",
+    "generator",
+    "image"
+  ]
 }
