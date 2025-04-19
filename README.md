@@ -11,20 +11,20 @@ Create kaleidoscopic avatars based on string input.
 ## Installation
 
 ```
-yarn add @joaosusaki/avatar-generator
+yarn add @jonkasusaki/avatar-generator
 ```
 
 OR
 
 ```
-npm install @joaosusaki/avatar-generator
+npm install @jonkasusaki/avatar-generator
 ```
 
 
 ## Usage
 
 ```
-import {generateAvatar} from '@joaosusaki/avatar-generator';
+import {generateAvatar} from '@jonkasusaki/avatar-generator';
 
 // Generate buffer
 const buffer = await generateAvatar('your input text', 400, 400)
